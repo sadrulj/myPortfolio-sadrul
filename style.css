@@ -454,6 +454,10 @@ header .navbar ul li a:hover {
   html {
     font-size: 50%;
   }
+  .service .box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 400px) {
@@ -473,7 +477,12 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 
-  .portfolio .box-container .box {
+  .service .box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service .box-container .box {
     width: 100%;
   }
 
